@@ -46,8 +46,6 @@ Explain how each technology has contributed to the development of client and ser
 
 ## Question 4: Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
 
-Word count guide: 50 - 100 words on each data structure
-
 - Array: An array is an object that stores or "holds". Similar to a list it can store a number of objects inside the array these can be strings, booleans or integers. Each array item then has an index this allows us to find the object and access it. The reason you would use an array is to store a number of data types, this can be for example a shopping list, a list of users, user emails or a list of names. You would typically use arrays when you're dealing with a large amount of objects with the same data type. 
 
 - Hash: Hash are similar to dictionaries. Hashes assign values to keys so that values can be looked up by their key. Unlike arrays hashes can store a number of objects such as arrays, variables as well as their values. You would use a hash when you want to store large data types with different/a lot of values. As mentioned before it is very handy as the hash acts as a dictionary and you can then access all the data inside the hash. 
@@ -56,14 +54,13 @@ Word count guide: 50 - 100 words on each data structure
 
 ## Question 5: Describe the features of interpreters and compilers and how they are different.
 
-Word count guide: 100 - 200 words on each way code is executed.
-Complied programming languages require a tool called complier. Before the program can run the compiler must convert the high-level code into a series of 'stages'. The code on the machine is then specific to that machine. Interpreted programming languages on the other hand require a tool called interpreter. The interpreter converts the source code to machine code line by line, while the program is running. The difference between the two is that compilers compile all the code in advance while interpreters compile the code live. So while the program is running the code is being compiled. Generally interpreter languages are more flexible and easier to debug compared to compilers.  
+- Complied programming languages require a tool called complier. Before the program can run the compiler must convert the high-level code into a series of 'stages'. The code on the machine is then specific to that machine. Interpreted programming languages on the other hand require a tool called interpreter. The interpreter converts the source code to machine code line by line, while the program is running. The difference between the two is that compilers compile all the code in advance while interpreters compile the code live. So while the program is running the code is being compiled. Generally interpreter languages are more flexible and easier to debug compared to compilers.  
 
 ## Question 6: Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
-Javascript - Javascript is a multi-paradigm, dynamic language with types and operators, standard built-in objects and methods. It's syntax is based on the Java and C language. Javascript has a number of advantages and disadvantages one being popularity, Javascript is heavily used and has a large community around it making it easier to understand, debug and work on the language to the resources available. A disadvantage however is that browser support is sometimes interpreted differently by different browsers. Another advantage of Javascript is the extended functionality. Javascript has a range of third party add-ons which can be executed on desired web pages to extend its functionality. However a downside to Javascript is its client side security. Because code executes on the users computer it can be accessed easily through the browser if the necessary security isn't put in place. Because Javascript is an interpreted language it reduces the time it takes to load on the browser. This allows the developers to improve their loading time due to the fact interpreted languages read the code line by line unlike compilers. Overall there are many pros and cons for Javascript and each language has their own drawbacks. 
+- Javascript - Javascript is a multi-paradigm, dynamic language with types and operators, standard built-in objects and methods. It's syntax is based on the Java and C language. Javascript has a number of advantages and disadvantages one being popularity, Javascript is heavily used and has a large community around it making it easier to understand, debug and work on the language to the resources available. A disadvantage however is that browser support is sometimes interpreted differently by different browsers. Another advantage of Javascript is the extended functionality. Javascript has a range of third party add-ons which can be executed on desired web pages to extend its functionality. However a downside to Javascript is its client side security. Because code executes on the users computer it can be accessed easily through the browser if the necessary security isn't put in place. Because Javascript is an interpreted language it reduces the time it takes to load on the browser. This allows the developers to improve their loading time due to the fact interpreted languages read the code line by line unlike compilers. Overall there are many pros and cons for Javascript and each language has their own drawbacks. 
 
-Ruby - Ruby is a great language and one many developers learn first and quickly. One of the biggest advantages for using Ruby is the ability to put together an application, web app etc... quickly and easily. This means it is highly used amongst the start-up industry as they're looking to get their program out there as soon as possible. However a con to Ruby is that it struggles to handle large loads, an example of this was Twitter, when they were first starting out they developed their platform in Ruby however once the site grew and the load increased they found it hard to keep up using Ruby. Another advantage of Ruby is that it is easy to use and understand and highly readable. Ruby is a very friendly program and the syntax has a lot of advantages. However a disadvantage to this is that it doesn't have many 'plug and play' and the lack of documentation around Ruby isn't as good as something like Javascript. Ruby is purely object orientated programming which makes it easier and simpler to edit states and develop your site. Ruby is dynamic and interpreted meaning you don't have to compile it to test it unlike languages such as C.
+- Ruby - Ruby is a great language and one many developers learn first and quickly. One of the biggest advantages for using Ruby is the ability to put together an application, web app etc... quickly and easily. This means it is highly used amongst the start-up industry as they're looking to get their program out there as soon as possible. However a con to Ruby is that it struggles to handle large loads, an example of this was Twitter, when they were first starting out they developed their platform in Ruby however once the site grew and the load increased they found it hard to keep up using Ruby. Another advantage of Ruby is that it is easy to use and understand and highly readable. Ruby is a very friendly program and the syntax has a lot of advantages. However a disadvantage to this is that it doesn't have many 'plug and play' and the lack of documentation around Ruby isn't as good as something like Javascript. Ruby is purely object orientated programming which makes it easier and simpler to edit states and develop your site. Ruby is dynamic and interpreted meaning you don't have to compile it to test it unlike languages such as C.
 
 ## Question 7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
 
@@ -89,11 +86,31 @@ List of topics containing ethical issues:
 
 ## Question 8: Explain control flow, using an example from the Ruby programming language (100 words)
 
+- Control flow is flow of how the computer reads the code. Originally the code is read by the computer from the top down. However, when you change the control flow you can alter the way the code is read for a brief period of time. This is done using conditionals and loops. Some examples of these are if statements, while and until statements, case statements and each methods. This allows you to make the program loop over a certain area till a value is equal to something. You can see an example of an if statement below. Altering the control flow is a good way constantly run an application depending on the input. 
+
+```
+i = 0
+
+if i = 0 
+  puts "Zero"
+  else 
+  puts "Nope not a zero
+end
+```
 
 ## Question 9: Explain type coercion (100 words)
 
+- Type coercion is changing one object's type to a different object type. By this I mean you are able to change a string for example to an integer `"21"` to `21` and back again. To do this you use methods such as `to_s`, `to_i`, `to_f`. The reason you would change the data type is to have it behave differently in your program. For example you might as the user for their age but instead of storing it as a string you want to store it as an integer so you can then use it in equations etc...
 
 ## Question 10: Explain data types, using examples (100 words)
+
+- When writing programs you will use a number of data types. There are a number of data types 
+1. Booleans - This is either true or false. This can be shown simply by typing true or false, or in when assigned to a variable such as `var_name = true` or `var_name = false` 
+2. Symbols - Symbols are used to represent other objects. To generate a symbol you first must put a colon before an identifier such as `:name`. Symbols cannot be changed and are often used in hashes. 
+3. Numbers - Generally defined as a series of digits, using a decimal mark. An example of this would be `9.27`. 
+4. Strings - Strings are a set of input put between two quotation marks Strings can be assigned to variables such as `string = "Max"`.
+5. Arrays are a way to store more than one or more piece's of data. Data in an array is seperated by a comma and can be accessed by the user again. An example of an `array is array = ["max", "kelly"]`.
+6. Hashes - A hash assigns its values to its keys. A key is a way to call upon that data and also allows for better structure of your code. A key can also be assigned to different data types such as a number, string or boolean. See example: `hash = { :name = "Max" :age = 21 }`
 
 
 ## Question 11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
@@ -106,13 +123,25 @@ List of topics containing ethical issues:
 
 ## Question 12: Identify and explain the error in the code that is preventing correct execution of the program (100 words)
 
-  ```
+- There are currently two errors in the below code which is preventing the correct execution of the program. The first error was that the celsius variable was not being puts. This means that the user was not entering in the value and the value wasn't being assigned to the variable called celsius to fix this you simply put `puts celsius` under celsius. However once celsius is receiving the user input the program was still causing an error. This was due to the fact the user input from a gets is always received as a string. When a string was passed into the equation it returned an error. To fix this error you would use type coercion and change the string to an integer such as `celsius = gets.to_i. See below for correct code. 
+
+```
+Correct Code:
+  celsius = gets.to_i
+  puts celsius
+  fahrenheit = (celsius * 9 / 5) + 32
+  print "The result is: "
+  print fahrenheit
+  puts "."
+```
+```
+  Incorrect Code:
   celsius = gets
   fahrenheit = (celsius * 9 / 5) + 32
   print "The result is: "
   print fahrenheit
   puts "."
-  ```
+```
 
 ## Question 13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
