@@ -40,7 +40,7 @@ Five key events:
 
 - HTTP and HTTPS (word count guide: 150 - 300 words) - HTTP is Hypertext transfer protocol while HTTPS is Hyper Text Transfer Protocol Secure (HTTPS). The basic flow of how HTTPS and HTTP work is that 1. HTTP request is made from the HTTP client (client being the users computer), the request then travels to the HTTP server where it collects the necessary data and moves it back with a HTTP reply. HTTP is a client-server protocol that allows users to request web pages from web servers. When a user wants to access a web page, a browser sends an HTTP Request message to the web server. The server responds with the requested web page. HTTPS is a secure version of HTTP sending important information back in an encrypted way and makes it harder for attacks to happen on the website which could result in loss of important user information.  
 
-- web browsers (requests, rendering and developer tools) - Web browsers translates websites and webpages into readable content, some example of browsers are FireFox,Chrome and Safari. This is done using HTTP and HTTPS. Basically the general flow of the user is that the browser (client) makes a request to the server for the data (user information, images etc...) Once a request has been made the server responds with a reply sending back the necessary data. This is where the browser must then present that information into readable content for the human eye to see. It turns the HTML layout tags in the page into the appropriate commands for the operating system, which causes the formation of the text characters and images for screen and printer. Developer tools are ways for developers in particular to get 'under the hood' and see how the webpage / website is made up. Developer tools are helpful for understanding how the site works, the styling done to it and the network request it makes. Browsers are an important tool to make the web accessible to everyone, as time goes on they're smarter and handling the way data is displayed across the web whether that be on mobile, desktop etc...
+- Web browsers (requests, rendering and developer tools) - Web browsers translates websites and webpages into readable content, some example of browsers are FireFox,Chrome and Safari. This is done using HTTP and HTTPS. Basically the general flow of the user is that the browser (client) makes a request to the server for the data (user information, images etc...) Once a request has been made the server responds with a reply sending back the necessary data. This is where the browser must then present that information into readable content for the human eye to see. It turns the HTML layout tags in the page into the appropriate commands for the operating system, which causes the formation of the text characters and images for screen and printer. Developer tools are ways for developers in particular to get 'under the hood' and see how the webpage / website is made up. Developer tools are helpful for understanding how the site works, the styling done to it and the network request it makes. Browsers are an important tool to make the web accessible to everyone, as time goes on they're smarter and handling the way data is displayed across the web whether that be on mobile, desktop etc...
 
 Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology) - TCP 
 
@@ -48,22 +48,22 @@ Explain how each technology has contributed to the development of client and ser
 
 Word count guide: 50 - 100 words on each data structure
 
-- Array: 
+- Array: An array is an object that stores or "holds". Similar to a list it can store a number of objects inside the array these can be strings, booleans or integers. Each array item then has an index this allows us to find the object and access it. The reason you would use an array is to store a number of data types, this can be for example a shopping list, a list of users, user emails or a list of names. You would typically use arrays when you're dealing with a large amount of objects with the same data type. 
 
-- Hash: 
+- Hash: Hash are similar to dictionaries. Hashes assign values to keys so that values can be looked up by their key. Unlike arrays hashes can store a number of objects such as arrays, variables as well as their values. You would use a hash when you want to store large data types with different/a lot of values. As mentioned before it is very handy as the hash acts as a dictionary and you can then access all the data inside the hash. 
 
-- 
-
-
-
+- Sets: Sets implements a collection of unordered values with no duplicates. Its a hybrid of Array's allowing the computer to process the request quicker unlike arrays that can take up a lot of power. You would use sets when you have a large amount of data that needs processing 
 
 ## Question 5: Describe the features of interpreters and compilers and how they are different.
 
 Word count guide: 100 - 200 words on each way code is executed.
+Complied programming languages require a tool called complier. Before the program can run the compiler must convert the high-level code into a series of 'stages'. The code on the machine is then specific to that machine. Interpreted programming languages on the other hand require a tool called interpreter. The interpreter converts the source code to machine code line by line, while the program is running. The difference between the two is that compilers compile all the code in advance while interpreters compile the code live. So while the program is running the code is being compiled. Generally interpreter languages are more flexible and easier to debug compared to compilers.  
 
 ## Question 6: Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
-Word count guide: 200 - 400 words on each language
+Javascript - Javascript is a multi-paradigm, dynamic language with types and operators, standard built-in objects and methods. It's syntax is based on the Java and C language. Javascript has a number of advantages and disadvantages one being popularity, Javascript is heavily used and has a large community around it making it easier to understand, debug and work on the language to the resources available. A disadvantage however is that browser support is sometimes interpreted differently by different browsers. Another advantage of Javascript is the extended functionality. Javascript has a range of third party add-ons which can be executed on desired web pages to extend its functionality. However a downside to Javascript is its client side security. Because code executes on the users computer it can be accessed easily through the browser if the necessary security isn't put in place. Because Javascript is an interpreted language it reduces the time it takes to load on the browser. This allows the developers to improve their loading time due to the fact interpreted languages read the code line by line unlike compilers. Overall there are many pros and cons for Javascript and each language has their own drawbacks. 
+
+Ruby - Ruby is a great language and one many developers learn first and quickly. One of the biggest advantages for using Ruby is the ability to put together an application, web app etc... quickly and easily. This means it is highly used amongst the start-up industry as they're looking to get their program out there as soon as possible. However a con to Ruby is that it struggles to handle large loads, an example of this was Twitter, when they were first starting out they developed their platform in Ruby however once the site grew and the load increased they found it hard to keep up using Ruby. Another advantage of Ruby is that it is easy to use and understand and highly readable. Ruby is a very friendly program and the syntax has a lot of advantages. However a disadvantage to this is that it doesn't have many 'plug and play' and the lack of documentation around Ruby isn't as good as something like Javascript. Ruby is purely object orientated programming which makes it easier and simpler to edit states and develop your site. Ruby is dynamic and interpreted meaning you don't have to compile it to test it unlike languages such as C.
 
 ## Question 7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
 
@@ -83,11 +83,12 @@ List of topics containing ethical issues:
 
   Word count guide: 200 words max
 
-Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches.
+  Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches.
 
-Word count guide: 400 - 600 words
+  Word count guide: 400 - 600 words
 
 ## Question 8: Explain control flow, using an example from the Ruby programming language (100 words)
+
 
 ## Question 9: Explain type coercion (100 words)
 
@@ -105,25 +106,25 @@ Word count guide: 400 - 600 words
 
 ## Question 12: Identify and explain the error in the code that is preventing correct execution of the program (100 words)
 
-```
-celsius = gets
-fahrenheit = (celsius * 9 / 5) + 32
-print "The result is: "
-print fahrenheit
-puts "."
-```
+  ```
+  celsius = gets
+  fahrenheit = (celsius * 9 / 5) + 32
+  print "The result is: "
+  print fahrenheit
+  puts "."
+  ```
 
 ## Question 13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
-```
-arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
-i = 0
-while (i < arr.size - 1 and arr[i] < arr[i + 1])
-	i = i + 1 end
-puts i
-    arr[i] = arr[i + 1]
-    arr[i + 1] = arr[i]
-```
+  ```
+  arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+  i = 0
+  while (i < arr.size - 1 and arr[i] < arr[i + 1])
+    i = i + 1 end
+  puts i
+      arr[i] = arr[i + 1]
+      arr[i + 1] = arr[i]
+  ```
 
 ## Question 14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
 
@@ -133,7 +134,7 @@ puts i
 
 ## Question 15: Write pseudocode OR Ruby code for the following problem:
 
-You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
+  You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
 
 ## Question 16: An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
 
@@ -157,3 +158,4 @@ You have access to two variables: raining (boolean) and temperature (integer). I
 https://www.livescience.com/20727-internet-history.html 
 https://www.thoughtco.com/who-invented-google-1991852 
 https://www.theverge.com/2018/9/5/17823490/google-20th-birthday-anniversary-history-milestones 
+https://scoutapm.com/blog/ruby-interpreters-what-you-need-to-know
