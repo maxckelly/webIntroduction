@@ -64,31 +64,11 @@ Explain how each technology has contributed to the development of client and ser
 
 ## Question 7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
 
-Word count guide: 200 - 400 words for each ethical issue
-
 An ethical issue that people must think of when developing is the safety of peoples data. There are many criminal acts such as theft, fraud and more which are fueled by our online presents. When a user is signing up to a website, making payments and storing information this can open up the opportunity for hackers and criminal organisations to attack those sites and gain access to that data to be used against the users. Ways in which the developers can help prevent this from happening is 1. Adding more protection to their accounts. Some way of doing this is by adding text message verifications, making sure a password contains a certain amount of characters and potentially adding a security code which is sent via text. This is extra way to prevent users accounts from being hacked and the lose of data. 2. Validation both on the server and browser side. To ensure that 'bots' or hackers aren't accessing your site you should have validation on both the browser side and server side trying to pick up any fields that might have been left empty due to scripting code etc... 3. Finally one of the best ways to prevent your site from being attacked is using HTTPS this guarantees that users are talking to the server they expect and that nobody else can intercept or change the content they're seeing in transit.
 
 The second ethical issue that you must think of is selling on the internet and how aggressive your sales and marketing approach can be towards the users and that the product you're selling is actively described as is. You can't actively mislead users into think a product is something else. Some ways which you can mislead users is by images, displaying something in different condition that it is actually in, displaying it in a different size etc... A good example of unethical behaviour was the famous Fyre festival which was an event advertised online and promised the users a completely different experience than what they received / where able to deliver. Another way in which you can deceive customers is putting urgency on a product. This can be done through selling of products saying that there are a limit amount available or that they have the cheapest ticket available. Companies such as Viagogo are under investigation for advertising their tickets as the cheapest option only to find out that at the end of the checkout process the consumers are being charged with a $52 booking fee making the price equal to its competitors. This is a great example of misleading consumers to go to your site and complete a purchase only to find out that the advertisement was incorrect.
 
 An example of an ethical issue involved the ability to run a criminal drug trafficking business over the internet. This started with Ross Ulbricht and how he started The Silk Road website on the dark web. The Silk Road was a site which could only be accessed on the dark web where you can buy anything from drugs, guns and people. This all started with the 31 year old Ross Ulbricht. At the time of his arrest he was worth $28.5 million dollars. To acquire this wealth Ross developed a marketplace website where drug dealers, arms dealers and more could go online and sell their product, all of the product was then bought through Bitcoin making it untraceable to the police. The Silk Road broke many laws and is a great example of how the internet and web development can be used for the worse. With a cash flow of $213 million dollars the Silk Road was a well run business operated purely by online developers. After starting out developing the site as a hobbies Ross realize that the potential for this site was beyond him. An obvious and easy way to prevent this ethical breach was to first shutdown the site, however this did not happen and he was instead drawn into it more. Although what Ross was doing was ethically wrong it also proved a target for criminals to act unethical towards him. At the peak of the sites life Ross was being attacked from many hackers trying to get into the site and gain access to his BitCoin account. Ways to prevent the attacks from stealing his money was to hire a team of online hackers to actively stay one step ahead of the attackers. This was done by constant updates, security checks and finding loop holes in the code which gave them access to the servers. With the help of developers and the late nights Ross was able to prevent hacks on his site, however this only lasted so long before they figured out a different approach to get in. The Silk Road was a great example of how the internet and the ability of developers can change the world for the worse. Ross was eventually captured by police in a library in San Fran where they snatched the laptop from his hands afraid that he would quickly delete the code and then would not be able to trace him to the site. Ross was sentence for life in prison for the unethical behaviour he committed. 
-
-List of topics containing ethical issues:
-
-  access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
-  intellectual property, copyright, and acknowledgement.
-  criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism
-  GPS tracking data and other types of metadata, MAC addresses, hardware fingerprints
-  freedom of thought, conscience, speech and the media
-  aggressive sales and marketing practices designed to mislead and deceive consumers
-  trading of shares on the stock exchange OR crypto-currencies
-
-  For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way.
-
-  Word count guide: 200 words max
-
-  Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches.
-
-  Word count guide: 400 - 600 words
 
 ## Question 8: Explain control flow, using an example from the Ruby programming language (100 words)
 
@@ -168,7 +148,21 @@ Correct Code:
 
 ## Question 15: Write pseudocode OR Ruby code for the following problem:
 
-  You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
+```
+temperature = 14
+rainingBoolean = true
+
+if temperature < 15 && rainingBoolean == true
+  puts "It's wet and cold"
+elsif temperature < 15 && rainingBoolean == false
+  puts "Its not raining but cold"
+elsif temperature >= 15 && rainingBoolean == false 
+  puts "It's warm but not raining"
+else
+  puts "It's warm and raining"
+end
+```
+You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
 
 ## Question 16: An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
 

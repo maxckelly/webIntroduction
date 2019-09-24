@@ -5,10 +5,16 @@
   # print fahrenheit
   # puts "."
 
-arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
-i = 0
-while (i < arr.size - 1 and arr[i] < arr[i + 1])
-  i = i + 1 end
-puts i
-  arr[i] = arr[i + 1]
-  arr[i + 1] = arr[i]
+
+  temperature = 14
+  rainingBoolean = true
+
+  if temperature < 15 && rainingBoolean == true
+    puts "It's wet and cold"
+  elsif temperature < 15 && rainingBoolean == false
+    puts "Its not raining but cold"
+  elsif temperature >= 15 && rainingBoolean == false 
+    puts "It's warm but not raining"
+  else
+    puts "It's warm and raining"
+  end
