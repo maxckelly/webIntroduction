@@ -36,13 +36,13 @@ Five key events:
 
 ## Question 3: Define the features of the following technologies that are essential in terms of the development of the internet:
 
-- TCP - Another feature on the internet is called the Transport Control Protocol (TCP). TCP is not controlled by any single company, this allows it to be modified easily to suit any device. TCP transports segments of data unlike IP which transports packets The TCP is essential in the development of the internet as it is the courier which deals with delivering the data packets to various hosts over the internet. It is dependent on the IP.
+- TCP - Another feature on the internet is called the Transport Control Protocol (TCP). TCP is not controlled by any single company, this allows it to be modified easily to suit any device. TCP transports segments of data unlike IP which transports packets of data. The TCP is essential in the development of the internet as it is the courier which deals with delivering the data to various hosts over the internet. It is dependent on the IP.
 
 - HTTP and HTTPS (word count guide: 150 - 300 words) - HTTP is Hypertext transfer protocol while HTTPS is Hyper Text Transfer Protocol Secure (HTTPS). The basic flow of how HTTPS and HTTP work is that 1. HTTP request is made from the HTTP client (client being the users computer), the request then travels to the HTTP server where it collects the necessary data and moves it back with a HTTP reply. HTTP is a client-server protocol that allows users to request web pages from web servers. When a user wants to access a web page, a browser sends an HTTP Request message to the web server. The server responds with the requested web page. HTTPS is a secure version of HTTP sending important information back in an encrypted way and makes it harder for attacks to happen on the website which could result in loss of important user information.  
 
 - Web browsers (requests, rendering and developer tools) - Web browsers translates websites and webpages into readable content, some example of browsers are FireFox,Chrome and Safari. This is done using HTTP and HTTPS. Basically the general flow of the user is that the browser (client) makes a request to the server for the data (user information, images etc...) Once a request has been made the server responds with a reply sending back the necessary data. This is where the browser must then present that information into readable content for the human eye to see. It turns the HTML layout tags in the page into the appropriate commands for the operating system, which causes the formation of the text characters and images for screen and printer. Developer tools are ways for developers in particular to get 'under the hood' and see how the webpage / website is made up. Developer tools are helpful for understanding how the site works, the styling done to it and the network request it makes. Browsers are an important tool to make the web accessible to everyone, as time goes on they're smarter and handling the way data is displayed across the web whether that be on mobile, desktop etc...
 
-Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology) - TCP 
+- Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology) - TCP is essential to the client and server communication as it is the way data is transported across the web without TCP we wouldn't be able to view the sites on the web. HTTP and HTTPS has contributed to the development by allowing browsers and servers to securely move data to and from the client and server this is helpful for the protection of information on the internet. Web browsers are another tool which has improved the client and server communication across the internet by improving tools for developers to develop better sites, making it easier and quicker for users to render and load websites while staying secure. Each technology is important to each other and the development of the internet.  
 
 ## Question 4: Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
 
@@ -64,11 +64,11 @@ Explain how each technology has contributed to the development of client and ser
 
 ## Question 7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
 
-An ethical issue that people must think of when developing is the safety of peoples data. There are many criminal acts such as theft, fraud and more which are fueled by our online presents. When a user is signing up to a website, making payments and storing information this can open up the opportunity for hackers and criminal organisations to attack those sites and gain access to that data to be used against the users. Ways in which the developers can help prevent this from happening is 1. Adding more protection to their accounts. Some way of doing this is by adding text message verifications, making sure a password contains a certain amount of characters and potentially adding a security code which is sent via text. This is extra way to prevent users accounts from being hacked and the lose of data. 2. Validation both on the server and browser side. To ensure that 'bots' or hackers aren't accessing your site you should have validation on both the browser side and server side trying to pick up any fields that might have been left empty due to scripting code etc... 3. Finally one of the best ways to prevent your site from being attacked is using HTTPS this guarantees that users are talking to the server they expect and that nobody else can intercept or change the content they're seeing in transit.
+- An ethical issue that people must think of when developing is the safety of peoples data. There are many criminal acts such as theft, fraud and more which are fueled by our online presents. When a user is signing up to a website, making payments and storing information this can open up the opportunity for hackers and criminal organisations to attack those sites and gain access to that data to be used against the users. Ways in which the developers can help prevent this from happening is 1. Adding more protection to their accounts. Some way of doing this is by adding text message verifications, making sure a password contains a certain amount of characters and potentially adding a security code which is sent via text. This is extra way to prevent users accounts from being hacked and the lose of data. 2. Validation both on the server and browser side. To ensure that 'bots' or hackers aren't accessing your site you should have validation on both the browser side and server side trying to pick up any fields that might have been left empty due to scripting code etc... 3. Finally one of the best ways to prevent your site from being attacked is using HTTPS this guarantees that users are talking to the server they expect and that nobody else can intercept or change the content they're seeing in transit.
 
-The second ethical issue that you must think of is selling on the internet and how aggressive your sales and marketing approach can be towards the users and that the product you're selling is actively described as is. You can't actively mislead users into think a product is something else. Some ways which you can mislead users is by images, displaying something in different condition that it is actually in, displaying it in a different size etc... A good example of unethical behaviour was the famous Fyre festival which was an event advertised online and promised the users a completely different experience than what they received / where able to deliver. Another way in which you can deceive customers is putting urgency on a product. This can be done through selling of products saying that there are a limit amount available or that they have the cheapest ticket available. Companies such as Viagogo are under investigation for advertising their tickets as the cheapest option only to find out that at the end of the checkout process the consumers are being charged with a $52 booking fee making the price equal to its competitors. This is a great example of misleading consumers to go to your site and complete a purchase only to find out that the advertisement was incorrect.
+- The second ethical issue that you must think of is selling on the internet and how aggressive your sales and marketing approach can be towards the users and that the product you're selling is actively described as is. You can't actively mislead users into think a product is something else. Some ways which you can mislead users is by images, displaying something in different condition that it is actually in, displaying it in a different size etc... A good example of unethical behaviour was the famous Fyre festival which was an event advertised online and promised the users a completely different experience than what they received / where able to deliver. Another way in which you can deceive customers is putting urgency on a product. This can be done through selling of products saying that there are a limit amount available or that they have the cheapest ticket available. Companies such as Viagogo are under investigation for advertising their tickets as the cheapest option only to find out that at the end of the checkout process the consumers are being charged with a $52 booking fee making the price equal to its competitors. This is a great example of misleading consumers to go to your site and complete a purchase only to find out that the advertisement was incorrect.
 
-An example of an ethical issue involved the ability to run a criminal drug trafficking business over the internet. This started with Ross Ulbricht and how he started The Silk Road website on the dark web. The Silk Road was a site which could only be accessed on the dark web where you can buy anything from drugs, guns and people. This all started with the 31 year old Ross Ulbricht. At the time of his arrest he was worth $28.5 million dollars. To acquire this wealth Ross developed a marketplace website where drug dealers, arms dealers and more could go online and sell their product, all of the product was then bought through Bitcoin making it untraceable to the police. The Silk Road broke many laws and is a great example of how the internet and web development can be used for the worse. With a cash flow of $213 million dollars the Silk Road was a well run business operated purely by online developers. After starting out developing the site as a hobbies Ross realize that the potential for this site was beyond him. An obvious and easy way to prevent this ethical breach was to first shutdown the site, however this did not happen and he was instead drawn into it more. Although what Ross was doing was ethically wrong it also proved a target for criminals to act unethical towards him. At the peak of the sites life Ross was being attacked from many hackers trying to get into the site and gain access to his BitCoin account. Ways to prevent the attacks from stealing his money was to hire a team of online hackers to actively stay one step ahead of the attackers. This was done by constant updates, security checks and finding loop holes in the code which gave them access to the servers. With the help of developers and the late nights Ross was able to prevent hacks on his site, however this only lasted so long before they figured out a different approach to get in. The Silk Road was a great example of how the internet and the ability of developers can change the world for the worse. Ross was eventually captured by police in a library in San Fran where they snatched the laptop from his hands afraid that he would quickly delete the code and then would not be able to trace him to the site. Ross was sentence for life in prison for the unethical behaviour he committed. 
+- An example of an ethical issue involved the ability to run a criminal drug trafficking business over the internet. This started with Ross Ulbricht and how he started The Silk Road website on the dark web. The Silk Road was a site which could only be accessed on the dark web where you can buy anything from drugs, guns and people. This all started with the 31 year old Ross Ulbricht. At the time of his arrest he was worth $28.5 million dollars. To acquire this wealth Ross developed a marketplace website where drug dealers, arms dealers and more could go online and sell their product, all of the product was then bought through Bitcoin making it untraceable to the police. The Silk Road broke many laws and is a great example of how the internet and web development can be used for the worse. With a cash flow of $213 million dollars the Silk Road was a well run business operated purely by online developers. After starting out developing the site as a hobbies Ross realize that the potential for this site was beyond him. An obvious and easy way to prevent this ethical breach was to first shutdown the site, however this did not happen and he was instead drawn into it more. Although what Ross was doing was ethically wrong it also proved a target for criminals to act unethical towards him. At the peak of the sites life Ross was being attacked from many hackers trying to get into the site and gain access to his BitCoin account. Ways to prevent the attacks from stealing his money was to hire a team of online hackers to actively stay one step ahead of the attackers. This was done by constant updates, security checks and finding loop holes in the code which gave them access to the servers. With the help of developers and the late nights Ross was able to prevent hacks on his site, however this only lasted so long before they figured out a different approach to get in. The Silk Road was a great example of how the internet and the ability of developers can change the world for the worse. Ross was eventually captured by police in a library in San Fran where they snatched the laptop from his hands afraid that he would quickly delete the code and then would not be able to trace him to the site. Ross was sentence for life in prison for the unethical behaviour he committed. 
 
 ## Question 8: Explain control flow, using an example from the Ruby programming language (100 words)
 
@@ -101,9 +101,6 @@ end
 
 ## Question 11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
 
-Identify the classes you would use to solve the problem
-Write a short explanation of why you would use the classes you have identified
-
 - The classes you would use to solve the issue of no staff would be 1. A employee class 2. A menu class and 3. An order class. The reason for the employee class would be to define and give the user an experience of an employee asking them. The class would be defined with instance variables of name, a bit about them as well as asking the customers what they would like to order. The next class would be the menu class. This class would outline the template for what will be on the menu, categories, drinks etc... Finally the order class would outline the order that is received from the customer and that order is then placed into the system. 
 
 ## Question 12: Identify and explain the error in the code that is preventing correct execution of the program (100 words)
@@ -130,20 +127,36 @@ Correct Code:
 
 ## Question 13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
-  ```
-  arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
-  i = 0
-  while (i < arr.size - 1 and arr[i] < arr[i + 1])
-    i = i + 1 end
-  puts i
-      arr[i] = arr[i + 1]
-      arr[i + 1] = arr[i]
-  ```
+```
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+  i = i + 1 end
+puts i
+    arr[i] = arr[i + 1]
+    arr[i + 1] = arr[i]
+```
+
+My Answer:
+```
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i != arr.length - 1)
+  if arr[i] > arr[i + 1]
+    first_num = arr[i]
+    arr[i] = arr[i + 1]
+    arr[i + 1] = first_num
+  end
+  i = i + 1
+end
+
+p arr
+```
 
 ## Question 14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
 
-  Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
-  Write pseudocode for the process outlined in your flowchart
+Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
+Write pseudocode for the process outlined in your flowchart
 
 
 ## Question 15: Write pseudocode OR Ruby code for the following problem:
