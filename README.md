@@ -16,7 +16,9 @@ By 1993 the internet was well and truely established into modern day society lar
 
 2000: Dotcom bubble bursts - WORK IN PROGRESS
 
-By the 2000s the internet was exploding wih internet businesses starting up in every industry and the ability to raise capital was as easy as it gets. Unfortunately though this lead to one of the biggest crashes to date and still shapes our lives now. The dot-com bubble was between 1995 - 2000 however the effects of it all came crashing down in 2000 when a huge amount of .com companies filed for bankruptcy. This was all caused by the large amounts of money being pumped into dot.com startups while ignoring the basic metrics when investing. You can see this through the way companies were cashing out for twice the amount they sold at during 1997 and 1998. Once the bubble did finally pop it had a disastrous effect across the United States of America with Silicon Valley alone losing 200,000 jobs. While the event and after effect of the dot com bubble was horrendous the reason the internet is where it is today is because of that. All of the money poured into the tech startups built out the infrastructure and economic foundation to allow the internet to mature in a tangible way.  
+By the 2000s the internet was exploding with internet businesses starting up in every industry and the ability to raise capital was as easy as it gets. Unfortunately though this lead to one of the biggest crashes to date and still shapes our lives now. The dot-com bubble was between 1995 - 2000 however the effects of it all came crashing down in 2000 when a huge amount of .com companies filed for bankruptcy. This was all caused by the large amounts of money being pumped into dot.com startups while ignoring the basic metrics when investing. You can see this through the way companies were cashing out for twice the amount they sold at during 1997 and 1998. 
+
+Once the bubble did finally pop it had a disastrous effect across the United States of America with Silicon Valley alone losing 200,000 jobs. While the event and after effect of the dot com bubble was horrendous the reason the internet is where it is today is because of that. All of the money poured into the tech startups built out the infrastructure and economic foundation to allow the internet to mature in a tangible way.  
 
 Five key events: 
 
@@ -108,7 +110,7 @@ end
 - There are currently two errors in the below code which is preventing the correct execution of the program. The first error was that the celsius variable was not being puts. This means that the user was not entering in the value and the value wasn't being assigned to the variable called celsius to fix this you simply put `puts celsius` under celsius. However once celsius is receiving the user input the program was still causing an error. This was due to the fact the user input from a gets is always received as a string. When a string was passed into the equation it returned an error. To fix this error you would use type coercion and change the string to an integer such as `celsius = gets.to_i. See below for correct code. 
 
 ```
-Correct Code:
+Correct Code: My response.
   celsius = gets.to_i
   puts celsius
   fahrenheit = (celsius * 9 / 5) + 32
@@ -155,8 +157,7 @@ p arr
 
 ## Question 14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
 
-Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
-Write pseudocode for the process outlined in your flowchart
+Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations. Write pseudocode for the process outlined in your flowchart
 
 
 ## Question 15: Write pseudocode OR Ruby code for the following problem:
@@ -175,22 +176,20 @@ else
   puts "It's warm and raining"
 end
 ```
-You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
-
 ## Question 16: An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
 
-  eggs (1)
-  peanuts (2)
-  shellfish (4)
-  strawberries (8)
-  tomatoes (16)
-  chocolate (32)
-  pollen (64)
-  cats (128)
+eggs (1)
+peanuts (2)
+shellfish (4)
+strawberries (8)
+tomatoes (16)
+chocolate (32)
+pollen (64)
+cats (128)
 
-  So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
+So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 
-  Write a program that, given a person’s score can tell them: a) whether or not they’re allergic to a given item b) the full list of allergies.
+Write a program that, given a person’s score can tell them: a) whether or not they’re allergic to a given item b) the full list of allergies.
 
 
 

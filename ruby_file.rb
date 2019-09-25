@@ -19,18 +19,17 @@
   #   puts "It's warm and raining"
   # end
 
+  # arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+  # i = 0
+  # while (i != arr.length - 1)
+  #   if arr[i] > arr[i + 1]
+  #     first_num = arr[i]
+  #     arr[i] = arr[i + 1]
+  #     arr[i + 1] = first_num
+  #   end
+  #   i = i + 1
+  # end
 
-  arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
-  i = 0
-  while (i != arr.length - 1)
-    if arr[i] > arr[i + 1]
-      first_num = arr[i]
-      arr[i] = arr[i + 1]
-      arr[i + 1] = first_num
-    end
-    i = i + 1
-  end
-
-  p arr
+  # p arr
 
   
