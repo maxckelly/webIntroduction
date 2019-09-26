@@ -32,4 +32,64 @@
 
   # p arr
 
+
+
+# allergies = [ 
+
+#   eggs = {
+#     allergy: :eggs,
+#     score: 1
+#   },
   
+#   peanuts = {
+#     allergy: :peanuts,
+#     score: 2
+#   },
+
+#   shellfish = {
+#     allergy: :shellfish,
+#     score: 4
+#   },
+
+#   strawberries = {
+#     allergy: :strawberries,
+#     score: 8
+#   },
+
+#   tomatoes = {
+#     allergy: :peanuts,
+#     score: 16
+#   },
+
+#   chocolate = {
+#     allergy: :chocolate,
+#     score: 32
+#   },
+
+#   pollen = {
+#     allergy: :pollen,
+#     score: 64
+#   },
+
+#   cats = {
+#     allergy: :cats,
+#     score: 128
+#   },
+# ]
+
+
+
+# user_allergies = []
+
+
+# puts "What is your score?"
+# print "> "
+# score = gets.strip.to_i
+
+# if score == 0b10000000
+#   user_allergies << allergies[7][:allergy]
+# elsif score == 0b1100000
+#   user_allergies << allergies[6][:allergy]
+# end
+
+# p user_allergies

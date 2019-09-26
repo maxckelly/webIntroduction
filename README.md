@@ -103,7 +103,7 @@ end
 
 ## Question 11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
 
-- The classes you would use to solve the issue of no staff would be 1. A employee class 2. A menu class and 3. An order class. The reason for the employee class would be to define and give the user an experience of an employee asking them. The class would be defined with instance variables of name, a bit about them as well as asking the customers what they would like to order. The next class would be the menu class. This class would outline the template for what will be on the menu, categories, drinks etc... Finally the order class would outline the order that is received from the customer and that order is then placed into the system. 
+- The classes you would use to solve the issue of no staff would be 1. A employee class 2. A menu class and 3. An order class. The reason for the employee class would be to define and give the user an experience of an employee asking them. The class would be defined with instance variables of name, a bit about them as well as asking the customers what they would like to order. The next class would be the menu class. This class would outline the template for what will be on the menu, categories, drinks etc... Finally the order class would outline the order id, the order that is received from the customer and that order is then placed into the system. 
 
 ## Question 12: Identify and explain the error in the code that is preventing correct execution of the program (100 words)
 
@@ -186,6 +186,8 @@ tomatoes (16)
 chocolate (32)
 pollen (64)
 cats (128)
+
+
 
 So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 
