@@ -12,7 +12,7 @@ Google is a key event in the creation of the internet as it become and currently
 
 1993: First Online Dating Site, Match.com launches. - WORK IN PROGRESS
 
-By 1993 the internet was well and truely established into modern day society large business were being built and the power of the internet was truely being shown. One way this was done was the ability to connect two people together with the goal of finding love. Match.com was founded by Gary Kremen,
+By 1993 the internet was well and truly established into modern day society, large businesses were being built and the power of the internet was truly being shown. One way this was done was the ability to connect two people together with the goal of finding love. Match.com was founded by Gary Kremen, 
 
 2000: Dotcom bubble bursts - WORK IN PROGRESS
 
@@ -97,7 +97,7 @@ end
 2. Symbols - Symbols are used to represent other objects. To generate a symbol you first must put a colon before an identifier such as `:name`. Symbols cannot be changed and are often used in hashes. 
 3. Numbers - Generally defined as a series of digits, using a decimal mark. An example of this would be `9.27`. 
 4. Strings - Strings are a set of input put between two quotation marks Strings can be assigned to variables such as `string = "Max"`.
-5. Arrays are a way to store more than one or more piece's of data. Data in an array is seperated by a comma and can be accessed by the user again. An example of an `array is array = ["max", "kelly"]`.
+5. Arrays are a way to store more than one or more piece's of data. Data in an array is separated by a comma and can be accessed by the user again. An example of an `array is array = ["max", "kelly"]`.
 6. Hashes - A hash assigns its values to its keys. A key is a way to call upon that data and also allows for better structure of your code. A key can also be assigned to different data types such as a number, string or boolean. See example: `hash = { :name = "Max" :age = 21 }`
 
 
@@ -139,7 +139,7 @@ puts i
     arr[i + 1] = arr[i]
 ```
 
-My Answer:
+- My Answer:
 ```
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 i = 0
@@ -192,6 +192,39 @@ cats (128)
 So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 
 Write a program that, given a person’s score can tell them: a) whether or not they’re allergic to a given item b) the full list of allergies.
+
+
+```
+class Allergies 
+  
+  def initialize(score)
+    @score = score
+  end
+
+
+  Allergies_numbers = { 
+    "eggs" => 1, 
+    "peanuts" => 2,
+    "shellfish" => 4,
+    "strawberries" => 8,
+    "tomatoes" => 16,
+    "chocolate" => 32,
+    "pollen" => 64,
+    "cats" => 128
+  }
+
+  def is_allergic_to(allergy)
+    @score & Allergies_numbers[allergy] > 0
+  end
+
+  def allergies
+    p Allergies_numbers.keys.select {|allergy| is_allergic_to(allergy)}
+  end
+end
+
+tom = Allergies.new(74)
+p tom.allergies
+```
 
 
 

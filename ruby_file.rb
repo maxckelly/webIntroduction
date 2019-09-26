@@ -19,77 +19,48 @@
   #   puts "It's warm and raining"
   # end
 
-  # arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
-  # i = 0
-  # while (i != arr.length - 1)
-  #   if arr[i] > arr[i + 1]
-  #     first_num = arr[i]
-  #     arr[i] = arr[i + 1]
-  #     arr[i + 1] = first_num
-  #   end
-  #   i = i + 1
-  # end
-
-  # p arr
-
-
-
-# allergies = [ 
-
-#   eggs = {
-#     allergy: :eggs,
-#     score: 1
-#   },
-  
-#   peanuts = {
-#     allergy: :peanuts,
-#     score: 2
-#   },
-
-#   shellfish = {
-#     allergy: :shellfish,
-#     score: 4
-#   },
-
-#   strawberries = {
-#     allergy: :strawberries,
-#     score: 8
-#   },
-
-#   tomatoes = {
-#     allergy: :peanuts,
-#     score: 16
-#   },
-
-#   chocolate = {
-#     allergy: :chocolate,
-#     score: 32
-#   },
-
-#   pollen = {
-#     allergy: :pollen,
-#     score: 64
-#   },
-
-#   cats = {
-#     allergy: :cats,
-#     score: 128
-#   },
-# ]
-
-
-
-# user_allergies = []
-
-
-# puts "What is your score?"
-# print "> "
-# score = gets.strip.to_i
-
-# if score == 0b10000000
-#   user_allergies << allergies[7][:allergy]
-# elsif score == 0b1100000
-#   user_allergies << allergies[6][:allergy]
+# arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+# i = 0
+# while (i != arr.length - 1)
+#   if arr[i] > arr[i + 1]
+#     first_num = arr[i]
+#     arr[i] = arr[i + 1]
+#     arr[i + 1] = first_num
+#   end
+#   i = i + 1
 # end
 
-# p user_allergies
+# p arr
+
+
+class Allergies 
+  
+  def initialize(score)
+    @score = score
+  end
+
+
+  Allergies_numbers = { 
+    "eggs" => 1, 
+    "peanuts" => 2,
+    "shellfish" => 4,
+    "strawberries" => 8,
+    "tomatoes" => 16,
+    "chocolate" => 32,
+    "pollen" => 64,
+    "cats" => 128
+  }
+
+  def is_allergic_to(allergy)
+    @score & Allergies_numbers[allergy] > 0
+  end
+
+  def allergies
+    p Allergies_numbers.keys.select {|allergy| is_allergic_to(allergy)}
+  end
+end
+
+tom = Allergies.new(74)
+p tom.allergies
+
+
