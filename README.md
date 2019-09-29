@@ -2,29 +2,29 @@
 
 The internet was first created in 1960s by the US Military. There are a large amount of major events that have happened through the course of the internet starting five of these being Google search engine was born in 1998, First online dating site, match.com launches in 1993, the dotcom bubble bursts in 2000 and Google unveils its Google assistant. 
 
+1982: The first emoticon
+
+While not a ground breaking technology or a large business in 1982 Scott Fahlman used the smiley face :-) after a joke. This was the first stage of the modern emoticon. Emoticons in our current age are now used all over the internet and is a great way to improve user experience and UI, while they have been improved and added to the core concept of how Scott used it stays the same, it allows the user to express how they're feeling making it more human and person allowing expression to be sent across the internet. Big adopters of the emoticon was driven by large companies such as 1. Emoticon's have very much found their place within Facebook through things like 'reactions'. It allows the users to express how they're feeling about a particular post. Another way in which emoticons have been apart of internet businesses is feedback and reviews. Users are able to clearly express how they're feeling about a particular site simply by clicking either a smiley or sad face, this helps break the barrier with language and makes it easier for the user to express their interest. However the most commonly used place for emoticons were through SMS, emails and internet forums, devices and companies like Apple have gone to the extent to include emoticons in their technology. Emoticons actually originated on the PLATO IV computer system in 1972 (which was the first generalized computer-assisted instruction system), emoticons itself was changed and became increasingly popular after Scott Fahlman. 
+
+1984: Domain Name System (DNS)
+
+A key event in the history of the internet was the creation of the DNS, short for Domain Name System. The DNS was created in 1984 by the Stanford Research Institute. The goal and purpose of teh DNS was to make the addresses on the internet more human-friendly and memorable. Previously the addresses of webpages and websites where in a numerical IP address, making it very hard for users to remember. DNS servers allowed the internet to type in an easy to remember domain name and then convert it to the IP address automatically. When the DNS was first created it was done on a file named HOSTS.TXT - This mapped hosts names to the numerical addresses of the computer on the internet. Addresses where assigned manually which proved very time consuming and not scalable. Later this would become automated and a system would be set in place to automatically name the websites. This was a significant event in the creation of the internet as it was the building blocks of making the web an easier place to navigate and attracted more people to create and use the webpages and websites. 
+
 1998: Google search engine is born 
 
-A search engine is a program that searches the World Wide Web based on keywords or characters specified by the user. Currently there are a number of search engines running such as Bing, Yahoo, DuckDuckGo and finally Google. Larry Page and Sergey Brin launch Google on Stanford university's network this was originally known as BackRub. Initially Google was a research project for the two founders however after receiving an investment of $100,000 from angel investors the two decided to turn this into a business and renaming themselves as Google in 1998. 
+A search engine is a program that searches the World Wide Web based on keywords or characters specified by the user. Currently there are a number of search engines running such as Bing, Yahoo,DuckDuckGo and finally Google. Larry Page and Sergey Brin launch Google on Stanford university's network this was originally known as BackRub. Initially Google was a research project for the two founders however after receiving an investment of $100,000 from angel investors the two decided to turn this into a business and renaming themselves as Google in 1998. 
 
-Google was able to surpass its competitors and change how users interact with the the web by 1. Speed - Google managed to load search results 5-10x faster than its competitors at the time 2. Much deeper index - Google was able to have capture a lot more webpages than its competitors such as Yahoo and Bing. 3. Algorithms - This helped launch Google into being one of the most used search engines, using algorithms was able to put the best sites at the top of the search results making searching a lot more user friendly. 
-
-Google is a key event in the creation of the internet as it become and currently is the biggest library in the world and giving access to a vast amount of information at the users fingertips as well as the ability to monetize the internet. 
+Google was able to surpass its competitors and change how users interact with the the web by 1. Speed - Google managed to load search results 5-10x faster than its competitors at the time 2. Much deeper index - Google was able to have capture a lot more webpages than its competitors such as Yahoo and Bing. 3. Algorithms - This helped launch Google into being one of the most used search engines, using algorithms was able to put the best sites at the top of the search results making searching a lot more user friendly. Google is a key event in the creation of the internet as it become and currently is the biggest library in the world and giving access to a vast amount of information at the users fingertips as well as the ability to monetize the internet. 
 
 1993: First Online Dating Site, Match.com launches. - WORK IN PROGRESS
 
-By 1993 the internet was well and truly established into modern day society, large businesses were being built and the power of the internet was truly being shown. One way this was done was the ability to connect two people together with the goal of finding love. Match.com was founded by Gary Kremen, 
+By 1993 the internet was well and truly established into modern day society, large businesses were being built and the power of the internet was truly being shown. One way this was done was the ability to connect two people together with the goal of finding love. Match.com was founded by Gary Kremen, in 1994 when only five per cent of Americans had internet access. Starting Match.com at the age of 30 with a $2,500 advance on his credit card to buy the domain name. Gary Kremen is a great example of an early entrepreneur on the internet and showed the potential for how big business can be made through the internet. Match.com was the first known dating site to be on the internet and an innovative idea which will paved the way for a large number of successful businesses, including Tinder, OkCupid and more. The most interesting concept of how Match.com exploded was how they 'piggy backed' off Facebook making Match.com into a Facebook app reaching millions of users. This shows how the internet was growing and the ability to connect businesses was never seen before. The creation and startup of Match.com is a significant event back in 1994 as it was 1. The first dating site and really shows off how the internet can connect and have an impacted on peoples personal lives 2. It was an innovative idea which paved the way for many more businesses / platforms on the internet in the future. 3. It showed how helpful the internet can be to peoples lives as well as attracting more people to be apart of the internet. 
 
 2000: Dotcom bubble bursts - WORK IN PROGRESS
 
 By the 2000s the internet was exploding with internet businesses starting up in every industry and the ability to raise capital was as easy as it gets. Unfortunately though this lead to one of the biggest crashes to date and still shapes our lives now. The dot-com bubble was between 1995 - 2000 however the effects of it all came crashing down in 2000 when a huge amount of .com companies filed for bankruptcy. This was all caused by the large amounts of money being pumped into dot.com startups while ignoring the basic metrics when investing. You can see this through the way companies were cashing out for twice the amount they sold at during 1997 and 1998. 
 
 Once the bubble did finally pop it had a disastrous effect across the United States of America with Silicon Valley alone losing 200,000 jobs. While the event and after effect of the dot com bubble was horrendous the reason the internet is where it is today is because of that. All of the money poured into the tech startups built out the infrastructure and economic foundation to allow the internet to mature in a tangible way.  
-
-Five key events: 
-
-
-
-2013: Fifty-one percent of adults report they bank online
 
 ## Question 2: Define the features of the following technologies that are essential in terms of the development of the internet:
 
@@ -187,13 +187,6 @@ chocolate (32)
 pollen (64)
 cats (128)
 
-
-
-So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
-
-Write a program that, given a person’s score can tell them: a) whether or not they’re allergic to a given item b) the full list of allergies.
-
-
 ```
 class Allergies 
   
@@ -234,3 +227,6 @@ https://www.livescience.com/20727-internet-history.html
 https://www.thoughtco.com/who-invented-google-1991852 
 https://www.theverge.com/2018/9/5/17823490/google-20th-birthday-anniversary-history-milestones 
 https://scoutapm.com/blog/ruby-interpreters-what-you-need-to-know
+https://www.businessinsider.com.au/match-gary-kremen-2011-12?r=US&IR=T 
+https://www.computerhistory.org/internethistory/1980s/
+https://www.webfx.com/blog/web-design/the-history-of-the-internet-in-a-nutshell/ 
